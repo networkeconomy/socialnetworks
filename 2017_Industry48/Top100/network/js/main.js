@@ -614,13 +614,13 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        if (a == "rgb(88,202,153)") {
+         if (a == "rgb(88,202,153)") {
 			$GP.info_name.html("<b>" + "Comps" + "</b>");
 		}
-		else if (a == "rgb(255,183,176)"){
+		else if (a == "rgb(255,85,132)"){
 			$GP.info_name.html("<b>" + "Chips" + "</b>");
 		}
-		else if (a == "rgb(255,154,116)"){
+		else if (a == "rgb(223,137,255)"){
 			$GP.info_name.html("<b>" + "BusSv" + "</b>");
 		}
 		else if (a == "rgb(255,194,255)"){
@@ -632,7 +632,7 @@ function showCluster(a) {
 		else if (a == "rgb(112,252,185)"){
 			$GP.info_name.html("<b>" + "Autos" + "</b>");
 		}
-		else if (a == "rgb(217,218,255)"){
+		else if (a == "rgb(76,70,62)"){
 			$GP.info_name.html("<b>" + "Unclassified" + "</b>");
 		}
 		else if (a == "rgb(183,215,222)"){
@@ -656,13 +656,13 @@ function showCluster(a) {
 		else if (a == "rgb(155,248,146)"){
 			$GP.info_name.html("<b>" + "Banks" + "</b>");
 		}
-		else if (a == "rgb(194,233,109)"){
+		else if (a == "rgb(0,196,255)"){
 			$GP.info_name.html("<b>" + "Rtail" + "</b>");
 		}
 		else if (a == "rgb(188,198,85)"){
 			$GP.info_name.html("<b>" + "Mines" + "</b>");
 		}
-		else if (a == "rgb(99,200,214)"){  
+		else if (a == "rgb(255,136,5)"){  
 			$GP.info_name.html("<b>" + "Telcm" + "</b>");
 		}
 		else if (a == "rgb(69,249,255)"){  
@@ -674,7 +674,7 @@ function showCluster(a) {
 		else if (a == "rgb(255,176,227)"){  
 			$GP.info_name.html("<b>" + "Oil" + "</b>");
 		}
-		else if (a == "rgb(255,187,132)"){  
+		else if (a == "rgb(211,179,176)"){  
 			$GP.info_name.html("<b>" + "Chems" + "</b>");
 		}
 		else if (a == "rgb(239,220,89)"){  
@@ -695,7 +695,7 @@ function showCluster(a) {
 		else if (a == "rgb(231,174,89)"){  
 			$GP.info_name.html("<b>" + "ElcEq" + "</b>");
 		} 
-		else if (a == "rgb(237,189,221)"){  
+		else if (a == "rgb(192,192,192)"){  
 			$GP.info_name.html("<b>" + "Trans" + "</b>");
 		}
 		else if (a == "rgb(219,168,218)"){  
@@ -704,7 +704,7 @@ function showCluster(a) {
 		else if (a == "rgb(161,184,225)"){  
 			$GP.info_name.html("<b>" + "Cnstr" + "</b>");
 		}
-		else if (a == "rgb(59,247,218)"){  
+		else if (a == "rgb(115,192,0)"){  
 			$GP.info_name.html("<b>" + "Drugs" + "</b>");
 		}
 		else if (a == "rgb(242,192,101)"){  
@@ -721,7 +721,10 @@ function showCluster(a) {
 		}
 		else if (a == "rgb(135,228,207)"){  
 			$GP.info_name.html("<b>" + "Paper" + "</b>");
-		}								
+		}
+		else if (a == "rgb(0,189,148)"){  
+			$GP.info_name.html("<b>" + "Insur" + "</b>");
+		}
 		else {
 			$GP.info_name.html("<b>" + a + "</b>");
 		}
