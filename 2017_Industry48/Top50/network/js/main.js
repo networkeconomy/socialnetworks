@@ -564,12 +564,13 @@ function nodeActive(a) {
             var d = f.attributes[attr],
                 h = "";
 			if (attr!=image_attribute) {
-                if (attr == "Centrality Measures" || attr == "Other Measures"){
+				if (attr == "Centrality Measures" || attr == "Other Measures"){
 					h = '<span><U><strong>' + attr + ':</strong></U> ' + d + '</span><br/>'
 				}
 				else{
 					h = '<p style="text-indent: 10px"><span><strong>' + attr + ':</strong>' + d + '</span></p><br/>'
 				}
+               
 			}
             //temp_array.push(f.attributes[g].attr);
             e.push(h)
@@ -613,13 +614,13 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-       if (a == "rgb(0,255,227)") {
+        if (a == "rgb(88,202,153)") {
 			$GP.info_name.html("<b>" + "Comps" + "</b>");
 		}
-		else if (a == "rgb(204,181,117)"){
+		else if (a == "rgb(255,85,132)"){
 			$GP.info_name.html("<b>" + "Chips" + "</b>");
 		}
-		else if (a == "rgb(129,254,168)"){
+		else if (a == "rgb(223,137,255)"){
 			$GP.info_name.html("<b>" + "BusSv" + "</b>");
 		}
 		else if (a == "rgb(255,194,255)"){
@@ -628,19 +629,19 @@ function showCluster(a) {
 		else if (a == "rgb(146,246,235)"){
 			$GP.info_name.html("<b>" + "Steel" + "</b>");
 		}
-		else if (a == "rgb(255,162,131)"){
+		else if (a == "rgb(112,252,185)"){
 			$GP.info_name.html("<b>" + "Autos" + "</b>");
 		}
-		else if (a == "rgb(239,236,99)"){
+		else if (a == "rgb(76,70,62)"){
 			$GP.info_name.html("<b>" + "Unclassified" + "</b>");
 		}
-		else if (a == "rgb(171,216,216)"){
+		else if (a == "rgb(183,215,222)"){
 			$GP.info_name.html("<b>" + "Mach" + "</b>");
 		}
-		else if (a == "rgb(149,185,220)"){
+		else if (a == "rgb(81,247,255)"){
 			$GP.info_name.html("<b>" + "Clths" + "</b>");
 		}
-		else if (a == "rgb(210,184,202)"){
+		else if (a == "rgb(255,204,97)"){
 			$GP.info_name.html("<b>" + "Meals" + "</b>");
 		}
 		else if (a == "rgb(174,181,238)"){
@@ -652,75 +653,78 @@ function showCluster(a) {
 		else if (a == "rgb(100,203,182)"){
 			$GP.info_name.html("<b>" + "Finan" + "</b>");
 		}
-		else if (a == "rgb(255,213,98)"){
+		else if (a == "rgb(155,248,146)"){
 			$GP.info_name.html("<b>" + "Banks" + "</b>");
 		}
-		else if (a == "rgb(210,184,202)"){
+		else if (a == "rgb(0,196,255)"){
 			$GP.info_name.html("<b>" + "Rtail" + "</b>");
 		}
 		else if (a == "rgb(188,198,85)"){
 			$GP.info_name.html("<b>" + "Mines" + "</b>");
 		}
-		else if (a == "rgb(100,203,182)"){  
+		else if (a == "rgb(255,136,5)"){  
 			$GP.info_name.html("<b>" + "Telcm" + "</b>");
 		}
 		else if (a == "rgb(69,249,255)"){  
 			$GP.info_name.html("<b>" + "Fun" + "</b>");
 		}
-		else if (a == "rgb(246,216,255)"){  
+		else if (a == "rgb(255,148,162)"){  
 			$GP.info_name.html("<b>" + "Food" + "</b>");
 		}
-		else if (a == "rgb(255,193,117)"){  
+		else if (a == "rgb(255,176,227)"){  
 			$GP.info_name.html("<b>" + "Oil" + "</b>");
 		}
-		else if (a == "rgb(255,162,131)"){  
+		else if (a == "rgb(211,179,176)"){  
 			$GP.info_name.html("<b>" + "Chems" + "</b>");
 		}
-		else if (a == "rgb(195,233,172)"){  
+		else if (a == "rgb(239,220,89)"){  
 			$GP.info_name.html("<b>" + "Hlth" + "</b>");
 		}
-		else if (a == "rgb(255,178,184)"){  
+		else if (a == "rgb(154,197,159)"){  
 			$GP.info_name.html("<b>" + "Util" + "</b>");
 		}
 		else if (a == "rgb(240,224,134)"){  
 			$GP.info_name.html("<b>" + "Toys" + "</b>");
 		}
-		else if (a == "rgb(255,205,202)"){  
+		else if (a == "rgb(191,187,112)"){  
 			$GP.info_name.html("<b>" + "MedEq" + "</b>");
 		} 
-		else if (a == "rgb(176,242,126)"){  
+		else if (a == "rgb(142,234,255)"){  
 			$GP.info_name.html("<b>" + "LabEq" + "</b>");
 		}
 		else if (a == "rgb(231,174,89)"){  
 			$GP.info_name.html("<b>" + "ElcEq" + "</b>");
 		} 
-		else if (a == "rgb(241,214,255)"){  
+		else if (a == "rgb(192,192,192)"){  
 			$GP.info_name.html("<b>" + "Trans" + "</b>");
 		}
 		else if (a == "rgb(219,168,218)"){  
 			$GP.info_name.html("<b>" + "Fin" + "</b>");
 		}
-		else if (a == "rgb(255,182,146)"){  
+		else if (a == "rgb(161,184,225)"){  
 			$GP.info_name.html("<b>" + "Cnstr" + "</b>");
 		}
-		else if (a == "rgb(100,203,182)"){  
+		else if (a == "rgb(115,192,0)"){  
 			$GP.info_name.html("<b>" + "Drugs" + "</b>");
 		}
-		else if (a == "rgb(255,182,146)"){  
+		else if (a == "rgb(242,192,101)"){  
 			$GP.info_name.html("<b>" + "Soda" + "</b>");
 		}
-		else if (a == "rgb(113,205,134)"){  
+		else if (a == "rgb(255,199,170)"){  
 			$GP.info_name.html("<b>" + "Hshld" + "</b>");
 		}
-		else if (a == "rgb(255,157,191)"){  
+		else if (a == "rgb(255,196,255)"){  
 			$GP.info_name.html("<b>" + "Whlsl" + "</b>");
 		}
-		else if (a == "rgb(255,205,237)"){  
+		else if (a == "rgb(254,179,182)"){  
 			$GP.info_name.html("<b>" + "Other" + "</b>");
 		}
-		else if (a == "rgb(255,203,150)"){  
+		else if (a == "rgb(135,228,207)"){  
 			$GP.info_name.html("<b>" + "Paper" + "</b>");
-		}								
+		}
+		else if (a == "rgb(0,189,148)"){  
+			$GP.info_name.html("<b>" + "Insur" + "</b>");
+		}
 		else {
 			$GP.info_name.html("<b>" + a + "</b>");
 		}
