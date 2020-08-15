@@ -614,37 +614,38 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        if (a == "rgb(241,214,255)") {
+        
+		if (a == "rgb(241,214,255)") {
 			$GP.info_name.html("<b>" + "Comps" + "</b>");
 		}
-		else if (a == "rgb(210,184,202)"){
+		else if (a == "rgb(232,187,101)"){
 			$GP.info_name.html("<b>" + "Chips" + "</b>");
 		}
-		else if (a == "rgb(129,254,168)"){
+		else if (a == "gb(191,230,103)"){
 			$GP.info_name.html("<b>" + "BusSv" + "</b>");
 		}
 		else if (a == "rgb(255,194,255)"){
 			$GP.info_name.html("<b>" + "Retail" + "</b>");
 		}
-		else if (a == "rgb(146,246,235)"){
+		else if (a == "rgb(167,208,215)"){
 			$GP.info_name.html("<b>" + "Steel" + "</b>");
 		}
 		else if (a == "rgb(255,162,131)"){
 			$GP.info_name.html("<b>" + "Autos" + "</b>");
 		}
-		else if (a == "rgb(115,248,255)"){
+		else if (a == "rgb(255,202,242)"){
 			$GP.info_name.html("<b>" + "Unclassified" + "</b>");
 		}
-		else if (a == "rgb(255,157,191)"){
+		else if (a == "rgb(235,182,203)"){
 			$GP.info_name.html("<b>" + "Mach" + "</b>");
 		}
 		else if (a == "rgb(188,198,85)"){
 			$GP.info_name.html("<b>" + "Clths" + "</b>");
 		}
-		else if (a == "rgb(100,203,182)"){
+		else if (a == "rgb(255,179,209)"){
 			$GP.info_name.html("<b>" + "Meals" + "</b>");
 		}
-		else if (a == "rgb(174,181,238)"){
+		else if (a == "rgb(139,218,164)"){
 			$GP.info_name.html("<b>" + "Aero" + "</b>");
 		}
 		else if (a == "rgb(255,146,150)"){
@@ -653,16 +654,16 @@ function showCluster(a) {
 		else if (a == "rgb(100,203,182)"){
 			$GP.info_name.html("<b>" + "Finan" + "</b>");
 		}
-		else if (a == "rgb(176,242,126)"){
+		else if (a == "rgb(165,199,250)"){
 			$GP.info_name.html("<b>" + "Banks" + "</b>");
 		}
-		else if (a == "rgb(210,184,202)"){
+		else if (a == "rgb(255,195,135)"){
 			$GP.info_name.html("<b>" + "Rtail" + "</b>");
 		}
 		else if (a == "rgb(188,198,85)"){
 			$GP.info_name.html("<b>" + "Mines" + "</b>");
 		}
-		else if (a == "rgb(239,236,99)"){  
+		else if (a == "rgb(75,243,218)"){  
 			$GP.info_name.html("<b>" + "Telcm" + "</b>");
 		}
 		else if (a == "rgb(69,249,255)"){  
@@ -677,7 +678,7 @@ function showCluster(a) {
 		else if (a == "rgb(162,197,114)"){  
 			$GP.info_name.html("<b>" + "Chems" + "</b>");
 		}
-		else if (a == "rgb(195,233,172)"){  
+		else if (a == "rgb(139,211,190)"){  
 			$GP.info_name.html("<b>" + "Hlth" + "</b>");
 		}
 		else if (a == "rgb(255,205,202)"){  
@@ -686,31 +687,31 @@ function showCluster(a) {
 		else if (a == "rgb(240,224,134)"){  
 			$GP.info_name.html("<b>" + "Toys" + "</b>");
 		}
-		else if (a == "rgb(204,181,117)"){  
+		else if (a == "rgb(201,206,135)"){  
 			$GP.info_name.html("<b>" + "MedEq" + "</b>");
 		} 
-		else if (a == "rgb(171,216,216)"){  
+		else if (a == "rgb(245,235,111)"){  
 			$GP.info_name.html("<b>" + "LabEq" + "</b>");
 		}
 		else if (a == "rgb(231,174,89)"){  
 			$GP.info_name.html("<b>" + "ElcEq" + "</b>");
 		} 
-		else if (a == "rgb(0,255,227)"){  
+		else if (a == "rgb(255,171,161)"){  
 			$GP.info_name.html("<b>" + "Trans" + "</b>");
 		}
-		else if (a == "rgb(219,168,218)"){  
+		else if (a == "rgb(255,214,112)"){  
 			$GP.info_name.html("<b>" + "Fin" + "</b>");
 		}
-		else if (a == "rgb(99,202,225)"){  
+		else if (a == "rgb(255,200,197)"){  
 			$GP.info_name.html("<b>" + "Cnstr" + "</b>");
 		}
-		else if (a == "rgb(255,193,117)"){  
+		else if (a == "rgb(87,231,244)"){  
 			$GP.info_name.html("<b>" + "Drugs" + "</b>");
 		}
-		else if (a == "rgb(255,182,146)"){  
-			$GP.info_name.html("<b>" + "Soda" + "</b>");
+		else if (a == "rgb(255,161,170)"){  
+			$GP.info_name.html("<b>" + "Insur" + "</b>");
 		}
-		else if (a == "rgb(113,205,134)"){  
+		else if (a == "rgb(255,191,141)"){  
 			$GP.info_name.html("<b>" + "Hshld" + "</b>");
 		}
 		else if (a == "rgb(149,185,220)"){  
@@ -721,8 +722,11 @@ function showCluster(a) {
 		}
 		else if (a == "rgb(255,203,150)"){  
 			$GP.info_name.html("<b>" + "Paper" + "</b>");
-		}								
-		else {
+		}	
+		else if (a == " rgb(255,151,193)"){  
+			$GP.info_name.html("<b>" + "BldMt" + "</b>");
+		}										
+		else{
 			$GP.info_name.html("<b>" + a + "</b>");
 		}
         $GP.info_data.hide();

@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "Betweenness centrality:  Indicator of a node\u0027s centrality in a network.\nEigen Vector Centrality: This metric measures the importance of a node in a graph as a function of the importance of its neighbors.\nCloseness centrality : A way of detecting nodes that are able to spread information very efficiently through a graph. \nEccentricity: measures how far a node is from the node most distant from it in the network.\n",
-    "intro": "Network Analysis of Top200 Industries",
+    "intro": "Network Analysis of Top200  Industries",
     "title": "Network Analysis"
   },
   "legend": {
@@ -28,7 +28,7 @@
   },
   "sigma": {
     "drawingProperties": {
-     "defaultEdgeType": "curve",
+      "defaultEdgeType": "curve",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
@@ -41,9 +41,9 @@
     },
     "graphProperties": {
       "maxEdgeSize": 5.5,
-      "minEdgeSize": 0.2,
+      "minEdgeSize": 0.1,
       "minNodeSize": 1,
-      "maxNodeSize": 17
+      "maxNodeSize": 15
     },
     "mouseProperties": {
       "maxRatio": 20,
