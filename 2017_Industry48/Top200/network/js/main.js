@@ -614,8 +614,7 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        
-		if (a == "rgb(241,214,255)") {
+        if (a == "rgb(241,214,255)") {
 			$GP.info_name.html("<b>" + "Comps" + "</b>");
 		}
 		else if (a == "rgb(232,187,101)"){
