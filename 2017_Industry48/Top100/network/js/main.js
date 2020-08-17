@@ -527,12 +527,12 @@ function nodeActive(a) {
 	//console.log(sigInst.neighbors);
 
 	if (groupByDirection) {
-		/* size=Object.size(mutual);
+		size=Object.size(mutual);
 		f.push("<h2>Mututal (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
 		size=Object.size(incoming);
 		f.push("<h2>Incoming (" + size + ")</h2>");
-		(size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>"); */
+		(size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>");
 		size=Object.size(outgoing);
 		f.push("<h2>Connected Firms (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
@@ -564,13 +564,12 @@ function nodeActive(a) {
             var d = f.attributes[attr],
                 h = "";
 			if (attr!=image_attribute) {
-				if (attr == "Centrality Measures" || attr == "Other Measures"){
+               if (attr == "Centrality Measures" || attr == "Other Measures"){
 					h = '<span><U><strong>' + attr + ':</strong></U> ' + d + '</span><br/>'
 				}
 				else{
 					h = '<p style="text-indent: 10px"><span><strong>' + attr + ':</strong>' + d + '</span></p><br/>'
 				}
-               
 			}
             //temp_array.push(f.attributes[g].attr);
             e.push(h)
@@ -580,7 +579,7 @@ function nodeActive(a) {
         	//image_index = jQuery.inArray(image_attribute, temp_array);
         	$GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         } else {
-        	$GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + "Firm: " + b.label + "</span></div>");
+        	$GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         }
         // Image field for attribute pane
         $GP.info_data.html(e.join("<br/>"))
@@ -614,7 +613,7 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        if (a == "rgb(88,202,153)") {
+       if (a == "rgb(88,202,153)") {
 			$GP.info_name.html("<b>" + "Comps" + "</b>");
 		}
 		else if (a == "rgb(255,85,132)"){

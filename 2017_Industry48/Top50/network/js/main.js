@@ -527,12 +527,12 @@ function nodeActive(a) {
 	//console.log(sigInst.neighbors);
 
 	if (groupByDirection) {
-		/* size=Object.size(mutual);
+		size=Object.size(mutual);
 		f.push("<h2>Mututal (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
 		size=Object.size(incoming);
 		f.push("<h2>Incoming (" + size + ")</h2>");
-		(size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>"); */
+		(size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>");
 		size=Object.size(outgoing);
 		f.push("<h2>Connected Firms (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
