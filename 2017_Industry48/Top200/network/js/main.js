@@ -566,7 +566,7 @@ function nodeActive(a) {
             var d = f.attributes[attr],
                 h = "";
 			if (attr!=image_attribute) {
-               if (attr == "Centrality Measures" || attr == "Other Measures"){
+                if (attr == "Centrality Measures" || attr == "Other Measures"){
 					h = '<span><U><strong>' + attr + ':</strong></U> ' + d + '</span><br/>'
 				}
 				else{
