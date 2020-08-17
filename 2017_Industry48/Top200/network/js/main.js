@@ -537,6 +537,8 @@ function nodeActive(a) {
 		f.push("<h2>Outgoing (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
 	} else {
+		size=Object.size(sigInst.neighbors);
+		f.push("<h2>Connected Firms (" + size + ")</h2>");
 		f=f.concat(createList(sigInst.neighbors));
 	}
 	//b is object of active node -- SAH
@@ -585,7 +587,7 @@ function nodeActive(a) {
         $GP.info_data.html(e.join("<br/>"))
     }
     $GP.info_data.show();
-    $GP.info_p.html("Connected Firms:");
+    $GP.info_p.html("Connections:");
     $GP.info.animate({width:'show'},350);
 	$GP.info_donnees.hide();
 	$GP.info_donnees.show();
